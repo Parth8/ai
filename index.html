@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Da Zero a Cento — A Complete AI Curriculum</title>
+<title>Da Zero a Cento - A Complete AI Curriculum</title>
 <meta name="description" content="An open curriculum for learning AI from absolute fundamentals to building agentic, AI-native products. Free-first, vendor-neutral, curated.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -234,7 +234,7 @@
   <div class="wrap">
     <div class="eyebrow">un curriculum aperto · vendor-neutral · free-first</div>
     <h1>Learn AI<br><em>da zero a cento.</em></h1>
-    <p class="hero-note">A complete, opinionated path from absolute fundamentals to building agentic, AI-native products — for PMs, builders, and the curious. No fluff, no vendor worship, no "AI is like a brain" metaphors.</p>
+    <p class="hero-note">A complete, opinionated path from absolute fundamentals to building agentic, AI-native products - for PMs, builders, and the curious. No fluff, no vendor worship, no "AI is like a brain" metaphors.</p>
     <div class="hero-meta">
       <div><strong>9</strong>phases</div>
       <div><strong>~4–6</strong>months at a steady pace</div>
@@ -294,7 +294,7 @@
     <p class="phase-time">2–3 days · ~5 hours of material</p>
 
     <div class="outcome" style="background:var(--pistacchio)">
-      <b>When this is done:</b> you can explain what a language model actually does — next-token prediction at extraordinary scale — and describe the modern AI stack (foundation model → prompting → RAG → agents → product) to anyone.
+      <b>When this is done:</b> you can explain what a language model actually does - next-token prediction at extraordinary scale - and describe the modern AI stack (foundation model → prompting → RAG → agents → product) to anyone.
     </div>
 
     <h4 class="block-label">Concepts to own</h4>
@@ -302,7 +302,7 @@
     <details class="concept"><summary>The model landscape</summary><div class="body">Frontier closed models (GPT, Claude, Gemini) versus open-weight models (Llama, Mistral, Qwen, DeepSeek). Who builds them, how they're priced, and what the tradeoffs are for someone building a product.</div></details>
     <details class="concept"><summary>The AI stack</summary><div class="body">Foundation model → fine-tuning → prompting → retrieval (RAG) → agents → product. Each layer adds capability without retraining the base model. Almost every AI product is a composition of these layers.</div></details>
     <details class="concept"><summary>Why now is different</summary><div class="body">Scaling laws, instruction tuning, and reinforcement learning from human feedback turned raw text completers into steerable, general-purpose engines. Tool use then turned them into things that can act.</div></details>
-    <details class="concept"><summary>The core vocabulary</summary><div class="body">Token, context window, parameters, inference, training, embedding, hallucination, temperature. Own these eight words before anything else — every other concept builds on them.</div></details>
+    <details class="concept"><summary>The core vocabulary</summary><div class="body">Token, context window, parameters, inference, training, embedding, hallucination, temperature. Own these eight words before anything else - every other concept builds on them.</div></details>
 
     <h4 class="block-label">Resources</h4>
     <a class="res" href="https://www.youtube.com/watch?v=zjkBMFhNj_g" target="_blank" rel="noopener">
@@ -340,7 +340,7 @@
         <h2>How LLMs Work</h2>
       </div>
     </div>
-    <p class="phase-sub">The internals: transformers, attention, tokens, context, training. You don't need to build a model professionally — you need to understand one deeply enough to teach it.</p>
+    <p class="phase-sub">The internals: transformers, attention, tokens, context, training. You don't need to build a model professionally - you need to understand one deeply enough to teach it.</p>
     <p class="phase-time">1 week · ~12 hours of material</p>
 
     <div class="outcome" style="background:var(--limone)">
@@ -349,11 +349,11 @@
 
     <h4 class="block-label">Concepts to own</h4>
     <details class="concept"><summary>Tokenization</summary><div class="body">Text becomes tokens via byte-pair encoding. Roughly ¾ of a word per token in English, far worse in other languages. Tokenization explains cost, context limits, and many strange model failures (spelling, arithmetic, rare words).</div></details>
-    <details class="concept"><summary>Transformers &amp; attention</summary><div class="body">The 2017 architecture behind everything. Self-attention lets every token weigh its relationship to every other token in parallel — that's the mechanism that made scale possible and killed recurrent networks.</div></details>
+    <details class="concept"><summary>Transformers &amp; attention</summary><div class="body">The 2017 architecture behind everything. Self-attention lets every token weigh its relationship to every other token in parallel - that's the mechanism that made scale possible and killed recurrent networks.</div></details>
     <details class="concept"><summary>Pretraining</summary><div class="body">Next-token prediction over trillions of tokens. This is where world knowledge gets compressed into weights. Compute plus data equals capability, with a predictability described by scaling laws.</div></details>
     <details class="concept"><summary>Instruction tuning &amp; RLHF</summary><div class="body">A pretrained model is a wild autocomplete. Supervised fine-tuning on instruction data makes it helpful; reinforcement learning from human feedback makes it steerable and safe. This combination was the ChatGPT breakthrough.</div></details>
-    <details class="concept"><summary>Context windows</summary><div class="body">The model's working memory: everything inside is visible, nothing outside exists. Modern windows range from 8K to over a million tokens, but retrieval quality degrades with position — "lost in the middle" is real.</div></details>
-    <details class="concept"><summary>Parameters &amp; scale</summary><div class="body">7B, 70B, 400B+ — parameter count roughly sets the capability ceiling, but training data quality and post-training now matter as much. Small models are catching up fast for narrow tasks.</div></details>
+    <details class="concept"><summary>Context windows</summary><div class="body">The model's working memory: everything inside is visible, nothing outside exists. Modern windows range from 8K to over a million tokens, but retrieval quality degrades with position - "lost in the middle" is real.</div></details>
+    <details class="concept"><summary>Parameters &amp; scale</summary><div class="body">7B, 70B, 400B+ - parameter count roughly sets the capability ceiling, but training data quality and post-training now matter as much. Small models are catching up fast for narrow tasks.</div></details>
     <details class="concept"><summary>Sampling: temperature, top-p</summary><div class="body">The model outputs a probability distribution over the next token; sampling settings decide how it picks. Temperature 0 for extraction and evals, ~0.7–1.0 for creative work. Knowing which knob to turn is a practitioner skill.</div></details>
 
     <h4 class="block-label">Resources</h4>
@@ -383,7 +383,7 @@
       <div class="note">Optional but excellent if you want broader deep-learning grounding beyond language models. Top-down teaching style: build first, theory second.</div>
     </a>
 
-    <div class="avoid"><b>Da evitare · skip this</b>Trying to master backpropagation math before watching Karpathy. His ordering is the right ordering. Also skip any "transformers explained in 5 minutes" content — this topic doesn't compress that far.</div>
+    <div class="avoid"><b>Da evitare · skip this</b>Trying to master backpropagation math before watching Karpathy. His ordering is the right ordering. Also skip any "transformers explained in 5 minutes" content - this topic doesn't compress that far.</div>
   </div>
 </section>
 
@@ -397,19 +397,19 @@
         <h2>Prompting &amp; APIs</h2>
       </div>
     </div>
-    <p class="phase-sub">Your primary interface with every model, forever. Most people never actually master this — which is exactly why it's a differentiator.</p>
+    <p class="phase-sub">Your primary interface with every model, forever. Most people never actually master this - which is exactly why it's a differentiator.</p>
     <p class="phase-time">1–2 weeks · ~8 hours of material plus practice</p>
 
     <div class="outcome" style="background:var(--pesca)">
-      <b>When this is done:</b> you can reliably extract structured, predictable output from any LLM using system prompts, few-shot examples, and chain-of-thought — and you can call any model API with confidence.
+      <b>When this is done:</b> you can reliably extract structured, predictable output from any LLM using system prompts, few-shot examples, and chain-of-thought - and you can call any model API with confidence.
     </div>
 
     <h4 class="block-label">Concepts to own</h4>
     <details class="concept"><summary>System prompts</summary><div class="body">The instruction frame that governs model behaviour: persona, constraints, output format, tone, refusal rules. Most AI products live or die on the quality of this one document.</div></details>
     <details class="concept"><summary>Zero-shot vs few-shot</summary><div class="body">Zero-shot: just ask. Few-shot: show examples first. Few-shot is dramatically more reliable for structured or stylistically-precise output, at the cost of tokens.</div></details>
     <details class="concept"><summary>Chain-of-thought</summary><div class="body">Asking the model to reason step by step measurably reduces errors on complex tasks. Reasoning models (o-series, R1 and successors) now bake this in with dedicated "thinking" tokens.</div></details>
-    <details class="concept"><summary>Structured output &amp; function calling</summary><div class="body">JSON mode, schemas, and function calling force the model to return parseable data instead of prose. This is the foundation of every product integration — and of agents, in the next phase.</div></details>
-    <details class="concept"><summary>Context engineering</summary><div class="body">The term replacing "prompt engineering": deciding what goes into the context window, in what order, and why. Instructions, examples, retrieved documents, tool results, history — composition is the skill.</div></details>
+    <details class="concept"><summary>Structured output &amp; function calling</summary><div class="body">JSON mode, schemas, and function calling force the model to return parseable data instead of prose. This is the foundation of every product integration - and of agents, in the next phase.</div></details>
+    <details class="concept"><summary>Context engineering</summary><div class="body">The term replacing "prompt engineering": deciding what goes into the context window, in what order, and why. Instructions, examples, retrieved documents, tool results, history - composition is the skill.</div></details>
     <details class="concept"><summary>API mechanics</summary><div class="body">Messages arrays (system / user / assistant turns), max tokens, stop sequences, streaming, rate limits, prompt caching, and cost per token. Know these before building anything.</div></details>
 
     <h4 class="block-label">Resources</h4>
@@ -426,7 +426,7 @@
     <a class="res" href="https://cookbook.openai.com/" target="_blank" rel="noopener">
       <div class="top"><span class="title">OpenAI Cookbook</span><span class="tag free">free</span><span class="tag time">reference</span></div>
       <div class="by">OpenAI</div>
-      <div class="note">Real code patterns: structured outputs, function calling, evals, embeddings. Read alongside Anthropic's and Google's prompting docs — comparing all three vendors' guidance is itself an education.</div>
+      <div class="note">Real code patterns: structured outputs, function calling, evals, embeddings. Read alongside Anthropic's and Google's prompting docs - comparing all three vendors' guidance is itself an education.</div>
     </a>
     <a class="res" href="https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview" target="_blank" rel="noopener">
       <div class="top"><span class="title">Anthropic Prompt Engineering Docs</span><span class="tag free">free</span><span class="tag time">2 hrs</span></div>
@@ -461,13 +461,13 @@
     </div>
 
     <h4 class="block-label">Concepts to own</h4>
-    <details class="concept"><summary>Embeddings</summary><div class="body">Dense vectors that represent meaning. "Cat" and "feline" land close together in embedding space; "cat" and "democracy" don't. This is how machines do semantic similarity — the foundation of search, recommendations, clustering, and RAG.</div></details>
+    <details class="concept"><summary>Embeddings</summary><div class="body">Dense vectors that represent meaning. "Cat" and "feline" land close together in embedding space; "cat" and "democracy" don't. This is how machines do semantic similarity - the foundation of search, recommendations, clustering, and RAG.</div></details>
     <details class="concept"><summary>Vector databases</summary><div class="body">Databases optimised for approximate nearest-neighbour search in high-dimensional space: Pinecone, Weaviate, Qdrant, Chroma, pgvector, and vector features inside Postgres and every major cloud DB. Know two well; know when plain Postgres with pgvector is enough (often).</div></details>
     <details class="concept"><summary>The RAG pipeline</summary><div class="body">Ingest → chunk → embed → store → (query → embed → retrieve → rerank) → inject into context → generate with citations. Every stage has failure modes; being able to name them is what separates practitioners from tourists.</div></details>
     <details class="concept"><summary>Chunking strategies</summary><div class="body">How you split documents affects retrieval quality more than almost anything else. Fixed-size, recursive, semantic, and document-structure-aware chunking each have a use case. Bad chunking cannot be fixed downstream.</div></details>
     <details class="concept"><summary>Hybrid search &amp; reranking</summary><div class="body">Dense (semantic) plus sparse (keyword/BM25) search almost always beats either alone. A cross-encoder reranker on top of retrieval is the cheapest big precision win available.</div></details>
-    <details class="concept"><summary>Evaluating RAG</summary><div class="body">Faithfulness, answer relevancy, context precision, context recall — the RAGAS framework's four dials. If you can't measure retrieval quality, you can't improve it.</div></details>
-    <details class="concept"><summary>When not to RAG</summary><div class="body">Long context windows, prompt caching, and agentic search have eaten some of RAG's territory. Knowing when to just stuff documents into context — or let an agent search — is a current, live product judgment.</div></details>
+    <details class="concept"><summary>Evaluating RAG</summary><div class="body">Faithfulness, answer relevancy, context precision, context recall - the RAGAS framework's four dials. If you can't measure retrieval quality, you can't improve it.</div></details>
+    <details class="concept"><summary>When not to RAG</summary><div class="body">Long context windows, prompt caching, and agentic search have eaten some of RAG's territory. Knowing when to just stuff documents into context - or let an agent search - is a current, live product judgment.</div></details>
 
     <h4 class="block-label">Resources</h4>
     <a class="res" href="https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/" target="_blank" rel="noopener">
@@ -478,7 +478,7 @@
     <a class="res" href="https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/" target="_blank" rel="noopener">
       <div class="top"><span class="title">LangChain: Chat with Your Data</span><span class="tag free">free</span><span class="tag time">1.5 hrs</span></div>
       <div class="by">DeepLearning.AI + LangChain</div>
-      <div class="note">Document loaders, splitters, vector stores, retrieval chains — the full RAG pattern hands-on. Where embeddings and retrieval click together.</div>
+      <div class="note">Document loaders, splitters, vector stores, retrieval chains - the full RAG pattern hands-on. Where embeddings and retrieval click together.</div>
     </a>
     <a class="res" href="https://www.deeplearning.ai/short-courses/building-rag-agents-with-llms/" target="_blank" rel="noopener">
       <div class="top"><span class="title">Building RAG Agents with LLMs</span><span class="tag free">free</span><span class="tag time">2 hrs</span></div>
@@ -555,10 +555,10 @@
     <a class="res" href="https://github.com/microsoft/ai-agents-for-beginners" target="_blank" rel="noopener">
       <div class="top"><span class="title">AI Agents for Beginners</span><span class="tag free">free</span><span class="tag time">~10 hrs</span></div>
       <div class="by">Microsoft · GitHub</div>
-      <div class="note">A structured lesson series covering agent frameworks, design patterns, planning, and multi-agent basics — with code. Good complement to the Hugging Face course.</div>
+      <div class="note">A structured lesson series covering agent frameworks, design patterns, planning, and multi-agent basics - with code. Good complement to the Hugging Face course.</div>
     </a>
 
-    <div class="avoid"><b>Da evitare · skip this</b>Starting with a heavy framework. Build one agent by hand — a raw while-loop calling a model API with two tools — before touching LangGraph or CrewAI, so you know exactly what the frameworks are hiding.</div>
+    <div class="avoid"><b>Da evitare · skip this</b>Starting with a heavy framework. Build one agent by hand - a raw while-loop calling a model API with two tools - before touching LangGraph or CrewAI, so you know exactly what the frameworks are hiding.</div>
   </div>
 </section>
 
@@ -576,22 +576,22 @@
     <p class="phase-time">1–2 weeks · ~8 hours of material</p>
 
     <div class="outcome" style="background:var(--lavanda)">
-      <b>When this is done:</b> you can explain MCP and A2A and why standard protocols matter, build or spec an MCP server, and reason about multi-agent architectures — orchestrator-worker, sequential, hierarchical — like a systems designer.
+      <b>When this is done:</b> you can explain MCP and A2A and why standard protocols matter, build or spec an MCP server, and reason about multi-agent architectures - orchestrator-worker, sequential, hierarchical - like a systems designer.
     </div>
 
     <h4 class="block-label">Concepts to own</h4>
-    <details class="concept"><summary>MCP — Model Context Protocol</summary><div class="body">An open standard (originated by Anthropic, now industry-wide) for connecting AI applications to tools and data sources. Think USB-C for AI: any client, any server, one protocol. Its primitives — tools, resources, prompts — are worth knowing cold.</div></details>
-    <details class="concept"><summary>Why protocols beat integrations</summary><div class="body">Before MCP: N models × M tools = N×M custom integrations. After: N + M. This is the same story as HTTP, SQL, and REST — and understanding it lets you predict where the ecosystem is heading.</div></details>
-    <details class="concept"><summary>A2A — Agent-to-Agent protocol</summary><div class="body">Google-originated, Linux Foundation-governed standard for agents discovering and talking to each other. MCP connects agents to tools; A2A connects agents to agents. Together they're the emerging agentic stack.</div></details>
-    <details class="concept"><summary>Multi-agent patterns</summary><div class="body">Sequential (pipeline of specialists), orchestrator-worker (a lead agent delegates to subagents), hierarchical (managers of managers), and debate/critique loops. More agents means more capability and much more failure surface — most products need fewer agents than founders think.</div></details>
-    <details class="concept"><summary>Orchestration frameworks</summary><div class="body">LangGraph (stateful graphs, production-leaning), CrewAI (role-based teams, fast to prototype), AutoGen/Agent Framework (Microsoft, conversation-driven), smolagents (Hugging Face, minimal, code-first). Learn one deeply — LangGraph is the safest deep bet — and stay conversant in the rest.</div></details>
-    <details class="concept"><summary>Agent observability</summary><div class="body">Tracing every step — which tool was called, with what input, what came back, what it cost — via LangSmith, Langfuse, or similar. Debugging a multi-agent system without traces is archaeology.</div></details>
+    <details class="concept"><summary>MCP - Model Context Protocol</summary><div class="body">An open standard (originated by Anthropic, now industry-wide) for connecting AI applications to tools and data sources. Think USB-C for AI: any client, any server, one protocol. Its primitives - tools, resources, prompts - are worth knowing cold.</div></details>
+    <details class="concept"><summary>Why protocols beat integrations</summary><div class="body">Before MCP: N models × M tools = N×M custom integrations. After: N + M. This is the same story as HTTP, SQL, and REST - and understanding it lets you predict where the ecosystem is heading.</div></details>
+    <details class="concept"><summary>A2A - Agent-to-Agent protocol</summary><div class="body">Google-originated, Linux Foundation-governed standard for agents discovering and talking to each other. MCP connects agents to tools; A2A connects agents to agents. Together they're the emerging agentic stack.</div></details>
+    <details class="concept"><summary>Multi-agent patterns</summary><div class="body">Sequential (pipeline of specialists), orchestrator-worker (a lead agent delegates to subagents), hierarchical (managers of managers), and debate/critique loops. More agents means more capability and much more failure surface - most products need fewer agents than founders think.</div></details>
+    <details class="concept"><summary>Orchestration frameworks</summary><div class="body">LangGraph (stateful graphs, production-leaning), CrewAI (role-based teams, fast to prototype), AutoGen/Agent Framework (Microsoft, conversation-driven), smolagents (Hugging Face, minimal, code-first). Learn one deeply - LangGraph is the safest deep bet - and stay conversant in the rest.</div></details>
+    <details class="concept"><summary>Agent observability</summary><div class="body">Tracing every step - which tool was called, with what input, what came back, what it cost - via LangSmith, Langfuse, or similar. Debugging a multi-agent system without traces is archaeology.</div></details>
 
     <h4 class="block-label">Resources</h4>
     <a class="res" href="https://modelcontextprotocol.io/" target="_blank" rel="noopener">
       <div class="top"><span class="title">MCP Official Documentation</span><span class="tag free">free</span><span class="tag time">2 hrs</span></div>
       <div class="by">modelcontextprotocol.io</div>
-      <div class="note">Read the spec and the concepts pages. Understanding the primitives — tools, resources, prompts — is worth more than any tutorial video about MCP.</div>
+      <div class="note">Read the spec and the concepts pages. Understanding the primitives - tools, resources, prompts - is worth more than any tutorial video about MCP.</div>
     </a>
     <a class="res" href="https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/" target="_blank" rel="noopener">
       <div class="top"><span class="title">MCP: Build Rich-Context AI Apps</span><span class="tag free">free</span><span class="tag time">1.5 hrs</span></div>
@@ -601,7 +601,7 @@
     <a class="res" href="https://www.deeplearning.ai/short-courses/a2a-the-agent2agent-protocol/" target="_blank" rel="noopener">
       <div class="top"><span class="title">A2A: The Agent2Agent Protocol</span><span class="tag free">free</span><span class="tag time">1.5 hrs</span></div>
       <div class="by">DeepLearning.AI + Google</div>
-      <div class="note">Build a multi-agent system where agents built in different frameworks discover and call each other over A2A — and see exactly how it complements MCP.</div>
+      <div class="note">Build a multi-agent system where agents built in different frameworks discover and call each other over A2A - and see exactly how it complements MCP.</div>
     </a>
     <a class="res" href="https://academy.langchain.com/courses/intro-to-langgraph" target="_blank" rel="noopener">
       <div class="top"><span class="title">Introduction to LangGraph</span><span class="tag free">free</span><span class="tag time">~6 hrs</span></div>
@@ -614,7 +614,7 @@
       <div class="note">A rare honest postmortem of a real production multi-agent system: orchestrator-worker architecture, what broke, and what the tokens actually cost.</div>
     </a>
 
-    <div class="avoid"><b>Da evitare · skip this</b>Multi-agent architectures for problems a single agent solves. Adding agents adds failure modes faster than it adds capability — the burden of proof is always on "more agents."</div>
+    <div class="avoid"><b>Da evitare · skip this</b>Multi-agent architectures for problems a single agent solves. Adding agents adds failure modes faster than it adds capability - the burden of proof is always on "more agents."</div>
   </div>
 </section>
 
@@ -636,13 +636,13 @@
     </div>
 
     <h4 class="block-label">Concepts to own</h4>
-    <details class="concept"><summary>Evals — the number one skill</summary><div class="body">LLM output is probabilistic, so quality must be measured systematically: golden datasets, LLM-as-judge, human review loops, regression suites on every prompt change. "It feels good" is not an eval. Teams that master evals ship faster and safer than teams that don't — this is the highest-leverage skill in AI product work.</div></details>
-    <details class="concept"><summary>The AI product patterns</summary><div class="body">Chatbot, copilot, autonomous agent, background workflow, and multimodal app. Every AI product is one of these or a combination — and each has distinct UX, trust, and reliability requirements.</div></details>
+    <details class="concept"><summary>Evals - the number one skill</summary><div class="body">LLM output is probabilistic, so quality must be measured systematically: golden datasets, LLM-as-judge, human review loops, regression suites on every prompt change. "It feels good" is not an eval. Teams that master evals ship faster and safer than teams that don't - this is the highest-leverage skill in AI product work.</div></details>
+    <details class="concept"><summary>The AI product patterns</summary><div class="body">Chatbot, copilot, autonomous agent, background workflow, and multimodal app. Every AI product is one of these or a combination - and each has distinct UX, trust, and reliability requirements.</div></details>
     <details class="concept"><summary>Hallucination as a product problem</summary><div class="body">Grounding, citations, constrained output, confidence signals, and human-in-the-loop are product strategies, not just model fixes. The right answer depends on the cost of being wrong in your domain.</div></details>
     <details class="concept"><summary>Cost &amp; latency economics</summary><div class="body">Model tiers differ in price by 20–100×. Prompt caching cuts repeat-prefix costs dramatically; batching, streaming, and routing cheap requests to small models are PM-level decisions that make or break unit economics.</div></details>
-    <details class="concept"><summary>Observability</summary><div class="body">Trace every call: inputs, outputs, latency, cost, tool use. LangSmith, Langfuse, Helicone. Non-negotiable in production — you cannot improve what you cannot see.</div></details>
-    <details class="concept"><summary>Safety &amp; prompt injection</summary><div class="body">Any text your system ingests — documents, web pages, tool results — can contain instructions that hijack the model. Injection is unsolved; defense is layered: input handling, least-privilege tools, human checkpoints on consequential actions.</div></details>
-    <details class="concept"><summary>Build vs buy vs prompt vs fine-tune</summary><div class="body">The canonical decision ladder: try prompting first, then RAG, then fine-tuning, then custom models — escalating only when the previous rung measurably fails. Most production problems die on rung one or two.</div></details>
+    <details class="concept"><summary>Observability</summary><div class="body">Trace every call: inputs, outputs, latency, cost, tool use. LangSmith, Langfuse, Helicone. Non-negotiable in production - you cannot improve what you cannot see.</div></details>
+    <details class="concept"><summary>Safety &amp; prompt injection</summary><div class="body">Any text your system ingests - documents, web pages, tool results - can contain instructions that hijack the model. Injection is unsolved; defense is layered: input handling, least-privilege tools, human checkpoints on consequential actions.</div></details>
+    <details class="concept"><summary>Build vs buy vs prompt vs fine-tune</summary><div class="body">The canonical decision ladder: try prompting first, then RAG, then fine-tuning, then custom models - escalating only when the previous rung measurably fails. Most production problems die on rung one or two.</div></details>
 
     <h4 class="block-label">Resources</h4>
     <a class="res" href="https://eugeneyan.com/writing/llm-patterns/" target="_blank" rel="noopener">
@@ -668,7 +668,7 @@
     <a class="res" href="https://www.deeplearning.ai/short-courses/quality-safety-llm-applications/" target="_blank" rel="noopener">
       <div class="top"><span class="title">Quality and Safety for LLM Applications</span><span class="tag free">free</span><span class="tag time">1.5 hrs</span></div>
       <div class="by">DeepLearning.AI + WhyLabs</div>
-      <div class="note">Monitoring, hallucination detection, jailbreak and injection awareness — the reliability layer of production AI.</div>
+      <div class="note">Monitoring, hallucination detection, jailbreak and injection awareness - the reliability layer of production AI.</div>
     </a>
 
     <div class="avoid"><b>Da evitare · skip this</b>Launching any AI feature without an eval suite, and any "AI PM certification" that costs four figures. The material on this page plus shipped projects beats every certificate.</div>
@@ -685,11 +685,11 @@
         <h2>Build &amp; Ship End-to-End</h2>
       </div>
     </div>
-    <p class="phase-sub">Learning compounds when it's deployed. Three real projects, on real URLs, with real data — this is where everything before it becomes yours.</p>
+    <p class="phase-sub">Learning compounds when it's deployed. Three real projects, on real URLs, with real data - this is where everything before it becomes yours.</p>
     <p class="phase-time">1–2 months · project-driven</p>
 
     <div class="outcome" style="background:var(--sabbia)">
-      <b>When this is done:</b> you have two or three deployed AI products in your portfolio and can architect the full stack — ingestion → retrieval → agent → API → UI → observability — from a blank page.
+      <b>When this is done:</b> you have two or three deployed AI products in your portfolio and can architect the full stack - ingestion → retrieval → agent → API → UI → observability - from a blank page.
     </div>
 
     <h4 class="block-label">Concepts to own</h4>
@@ -718,7 +718,7 @@
     <a class="res" href="https://cohere.com/llmu" target="_blank" rel="noopener">
       <div class="top"><span class="title">Cohere LLM University</span><span class="tag free">free</span><span class="tag time">reference</span></div>
       <div class="by">Cohere</div>
-      <div class="note">Strong hands-on modules on semantic search, RAG, and deployment — plus some of the best-illustrated explanations of transformers and embeddings anywhere.</div>
+      <div class="note">Strong hands-on modules on semantic search, RAG, and deployment - plus some of the best-illustrated explanations of transformers and embeddings anywhere.</div>
     </a>
     <a class="res" href="https://www.udemy.com/course/generative-ai-for-beginners-chatbots-rag-mcp-ai-agents/" target="_blank" rel="noopener">
       <div class="top"><span class="title">Complete Generative AI: RAG, MCP &amp; Agents</span><span class="tag paid">paid</span><span class="tag time">~20 hrs</span></div>
@@ -726,7 +726,7 @@
       <div class="note">One guided path through chatbots, RAG pipelines, MCP servers, multi-agent systems, and cloud deployment. Optional; useful if you prefer a single instructor over assembling pieces.</div>
     </a>
 
-    <div class="avoid"><b>Da evitare · skip this</b>Waiting for the app to be perfect before deploying. Ship ugly, then iterate — deployment friction is itself part of the curriculum.</div>
+    <div class="avoid"><b>Da evitare · skip this</b>Waiting for the app to be perfect before deploying. Ship ugly, then iterate - deployment friction is itself part of the curriculum.</div>
   </div>
 </section>
 
@@ -740,7 +740,7 @@
         <h2>Fine-tuning &amp; Staying Sharp</h2>
       </div>
     </div>
-    <p class="phase-sub">The last technical layer — when prompting and RAG aren't enough — plus the permanent learning system, because this field reinvents itself every few months.</p>
+    <p class="phase-sub">The last technical layer - when prompting and RAG aren't enough - plus the permanent learning system, because this field reinvents itself every few months.</p>
     <p class="phase-time">1–2 months, then forever</p>
 
     <div class="outcome" style="background:var(--mattone)">
@@ -750,10 +750,10 @@
     <h4 class="block-label">Concepts to own</h4>
     <details class="concept"><summary>When to fine-tune</summary><div class="body">When you need a style or format prompting can't reliably produce, have at least ~1,000 high-quality examples, or need a small cheap model to match a big one on a narrow task. It's the last resort on the decision ladder, not the first move.</div></details>
     <details class="concept"><summary>LoRA &amp; QLoRA</summary><div class="body">Parameter-efficient fine-tuning: train a small adapter instead of all the weights. QLoRA adds quantisation so large models can be tuned on a single GPU. This is how almost all practical fine-tuning happens.</div></details>
-    <details class="concept"><summary>Preference optimisation &amp; RL</summary><div class="body">RLHF, DPO, and GRPO — how models are aligned to human preferences and trained to reason. Understanding these at a conceptual level lets you read any model release announcement critically.</div></details>
+    <details class="concept"><summary>Preference optimisation &amp; RL</summary><div class="body">RLHF, DPO, and GRPO - how models are aligned to human preferences and trained to reason. Understanding these at a conceptual level lets you read any model release announcement critically.</div></details>
     <details class="concept"><summary>Multimodal &amp; beyond text</summary><div class="body">Vision-language models, speech models, image and video generation, and computer-use agents. The product frontier is multimodal; keep a working mental map even if you build with text first.</div></details>
-    <details class="concept"><summary>Benchmark literacy</summary><div class="body">MMLU, GPQA, SWE-bench, LMArena — know what each measures, who runs it, and why to be sceptical of every vendor-reported number. Independent leaderboards over press releases, always.</div></details>
-    <details class="concept"><summary>The 30-minute model eval</summary><div class="body">New model drops: read the system card, check independent benchmarks, run your own hardest prompts, check pricing, read two practitioner takes. You can have a defensible opinion in half an hour — this is the skill that keeps you current forever.</div></details>
+    <details class="concept"><summary>Benchmark literacy</summary><div class="body">MMLU, GPQA, SWE-bench, LMArena - know what each measures, who runs it, and why to be sceptical of every vendor-reported number. Independent leaderboards over press releases, always.</div></details>
+    <details class="concept"><summary>The 30-minute model eval</summary><div class="body">New model drops: read the system card, check independent benchmarks, run your own hardest prompts, check pricing, read two practitioner takes. You can have a defensible opinion in half an hour - this is the skill that keeps you current forever.</div></details>
 
     <h4 class="block-label">Resources</h4>
     <a class="res" href="https://www.deeplearning.ai/short-courses/finetuning-large-language-models/" target="_blank" rel="noopener">
@@ -784,7 +784,7 @@
     <a class="res" href="https://huggingface.co/papers" target="_blank" rel="noopener">
       <div class="top"><span class="title">Hugging Face Daily Papers</span><span class="tag free">free</span><span class="tag time">daily</span></div>
       <div class="by">Hugging Face</div>
-      <div class="note">Community-curated daily paper feed. Read abstracts, follow what recurs — the fastest low-effort way to track research.</div>
+      <div class="note">Community-curated daily paper feed. Read abstracts, follow what recurs - the fastest low-effort way to track research.</div>
     </a>
     <a class="res" href="https://lmarena.ai/" target="_blank" rel="noopener">
       <div class="top"><span class="title">LMArena (Chatbot Arena)</span><span class="tag free">free</span><span class="tag time">reference</span></div>
@@ -801,10 +801,10 @@
   <div class="wrap">
     <div class="section-label">Glossario · Pin this</div>
     <div class="gloss-grid">
-      <div class="gloss"><dt>Token</dt><dd>The unit of text a model reads and writes — roughly ¾ of an English word.</dd></div>
+      <div class="gloss"><dt>Token</dt><dd>The unit of text a model reads and writes - roughly ¾ of an English word.</dd></div>
       <div class="gloss"><dt>Context window</dt><dd>The model's working memory. Inside is visible; outside doesn't exist.</dd></div>
       <div class="gloss"><dt>Embedding</dt><dd>A vector of numbers representing meaning; similar meanings sit close together.</dd></div>
-      <div class="gloss"><dt>Vector database</dt><dd>A store optimised for finding the nearest vectors — i.e. searching by meaning.</dd></div>
+      <div class="gloss"><dt>Vector database</dt><dd>A store optimised for finding the nearest vectors - i.e. searching by meaning.</dd></div>
       <div class="gloss"><dt>RAG</dt><dd>Retrieve relevant documents at query time and hand them to the model, instead of retraining it.</dd></div>
       <div class="gloss"><dt>Agent</dt><dd>A model with tools and a loop: reason, act, observe, repeat until done.</dd></div>
       <div class="gloss"><dt>Tool / function calling</dt><dd>The model emits a structured request; your code executes it and returns the result.</dd></div>
@@ -822,9 +822,9 @@
 <footer>
   <div class="wrap">
     <div class="section-label">Nota</div>
-    <p>This curriculum is deliberately opinionated: free-first, vendor-neutral, and ordered so each phase builds on the last. The field moves quickly — treat the links as a starting map, not scripture, and always prefer building over watching.</p>
+    <p>This curriculum is deliberately opinionated: free-first, vendor-neutral, and ordered so each phase builds on the last. The field moves quickly - treat the links as a starting map, not scripture, and always prefer building over watching.</p>
     <p style="margin-top:16px">Found it useful? Pass it along to someone who keeps saying they feel behind on AI. Nobody is behind; most people just haven't been handed a path.</p>
-    <p class="sign">— curated with care, updated July 2026</p>
+    <p class="sign">- curated with care, updated July 2026</p>
   </div>
 </footer>
 
